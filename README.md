@@ -1,6 +1,5 @@
 
 
-https://ana-siddiqi.github.io/ma1800-project-draft/
 
 Media Through Time is an interactive website for users to explore and time-travel through the past, present and future of digital media. This website is an immersive and playful experience with three floating memory bubbles that the user can interact with. Each bubble opens a unique page with different aesthetics encapsulating the feeling of each era.
 
