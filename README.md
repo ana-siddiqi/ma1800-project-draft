@@ -5,7 +5,7 @@ Media Through Time is an interactive website for users to explore and time-trave
 
 I wanted the website to be entertaining and intriguing, therefore I incorporated multiple GIFs, colours, external links and so on to create an engaging atmosphere. 
 
-Page 1 is an illustration the past, specifically old media, with grainy textures and an interactive image that takes users to a website where old televisions are available for purchase. This showcases how we have evolved so much that old digital media is not easily accessible and individuals have to seek to find it.
+Page 1 is an illustration the past, specifically old media, with grainy textures and an interactive image that takes users to a website where old televisions are available for purchase. This showcases how we have evolved so much that old digital media is not easily accessible and individuals have to seek to find it. Also I decided not to include a back button on this page to be a symbol of how individuals can't go back in time or alter the past, so in order to go back to the home page, users must press the backwards arrow on the top left of their screen, this gets them to interact with a majority of the screen.
 
 Page 2 is a portrayal of the present media and current era we are living in. This page presents more of a cleaner more polished look with mixed languages (English and Farsi) to illustrate how media nowadays has become more personal, global and a part of people's identities. 
 
