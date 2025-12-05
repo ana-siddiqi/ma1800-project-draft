@@ -1,23 +1,26 @@
+/* ---Styling the home page ---*/
 body {
   padding: 100px;
   text-align: center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Linear background gradient inspired by w3schools */
 background: linear-gradient(#3b125a, #30338f, #7cb9f2);
 }
-
+/* Subtitle underneath the title */
 .subtitle {
   color: #afe7ff;
   margin-top: -0px;
   font-weight:400;
 
 }
-
+/*Container for the 3 interactive bubbles */
 .bubble-container {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 40px; /* The space between the bubbles */
   margin-top: 240px;
 }
+/*The bubble link styling for the homepage */
 .bubble{
   padding: 20px;
   border-radius: 50%;
@@ -30,19 +33,20 @@ background: linear-gradient(#3b125a, #30338f, #7cb9f2);
   font-size: 18px;
   text-align: center;
   color: whitesmoke;
+  /*A transparent effect */
   background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 20px rgba (255,255,255,0.2);
   backdrop-filter: blur(12px);
   cursor: pointer;
-  transition: transform 0.4s;
+  transition: transform 0.4s; /*The hovver animation */
  
 }
-
+/* The hover animations on the bubbles to make them spin*/
 .bubble:hover{
   transform: scale(1.14) rotate(-360deg);
   box-shadow: 0 0 44px rgba(255, 255, 255, 0.6);
 }
-
+/* GIFs placed around the home page to give off an early net feel */
 .sparkle {
   width: 200px;
   opacity: 0.6;
@@ -87,9 +91,9 @@ background: linear-gradient(#3b125a, #30338f, #7cb9f2);
   opacity: 0.6;
   position:absolute;
   left: 400px;
-  z-index: 100;
+  z-index: 100; /* Makes this GIF stand out above the others */
 }
-
+/* The background GIF */
 .bubbly {
   position:fixed;
   top: 0;
@@ -99,7 +103,7 @@ background: linear-gradient(#3b125a, #30338f, #7cb9f2);
   background-image: url(images/bubbly.gif);
   opacity: 0.2;
 }
-
+/* --- Styling the texts --- */
 h1 {
   color: aqua;
 }
@@ -107,11 +111,11 @@ h1 {
 p {
   color: lightblue;
 }
-
+/* --- Page 1 Media In The Past --- */
 .past {
   background-color: #174761;
 }
-
+/* An overlay of a noise effect to create an old atmosphere */
 .noise {
   position: fixed;
   top:0;
@@ -120,7 +124,7 @@ p {
   height:100%;
   opacity: 4;
 }
-
+/* Framing the past image */
 .pastimgframe{
   display: incline-block;
   padding:44px;
@@ -130,12 +134,12 @@ p {
   backdrop-filter: blur(2px);
   margin: 40px 0;
 }
-
+/* Image of past media */
 .pastmedia{
   width: 450px;
   max-width: 90%;
 }
-
+/* I ended up not allowing this back button to work as a symbol that people can't go back in time to the past */
 .backbutton{
   display: incline-block;
   margin-top: 30px;
@@ -145,8 +149,9 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 6px;
 }
-
+/* --- Page 2 Media In The Present --- */
 .present {
+  /* Dark gradient background to portray digital media in modern day */
   background: linear-gradient(135deg, #181842, #43021a);
   color: white;
   text-align: center;
@@ -155,10 +160,10 @@ p {
 }
 .present h1 {
   color: #6edaf5;
-  text-shadow: 0 0 12px #fe5f99;
+  text-shadow: 0 0 12px #fe5f99; /* Neon effect */
   margin-bottom:22px;
 }
-
+/* Paragraph written in Persian to showcase the diversity of modern media */
 .presentparagraph{
   color: #8ce0fa;
   max-width: 600px;
@@ -168,7 +173,7 @@ p {
 }
 
 
-
+/* Framing the smartphone */
 .phone{
   margin-top:44px;
   background: rgba(255, 255, 255, 0.06);
@@ -177,43 +182,44 @@ p {
   display: inline-block;
   box-shadow: 0 0 18px rgba(255, 255, 255, 0.94);
 }
-
+/* Hover effect on the phone to make it expand upwards */
 .phone:hover{
   transform: translateY(-144px) scale(2);
 }
-
+/* The image of the phone inside the frame */
 .phoneimg{
   width: 300px;
   max-width: 90%;
   border-radius: 14px;
 }
-
+/* --- Page 3 Media In The Future --- */
 .future {
   position: relative;
   background: url('images/glitch3.gif');
   background-size: cover;
   color: white;
-
+/* A glitchy GIF background */
   animation: glitch 0.5 ease-in-out infinite;
 
 }
 
 .future h1 {
   color:#00eaff;
-  text-shadow: 2px 0 #c300ff;
+  text-shadow: 2px 0 #c300ff; /* Offset text effect */
   font-size: 44px;
   position:relative;
+  /* Title glitch animation */
   animation: glitch 1.4s infinite;
 }
 
-
+/* Box with spaced out error text saying "404 FUTURE NOT FOUND" */
 .glitch-box {
   border: 2px solid #00eaff;
   padding: 20px;
   margin: auto;
   margin-bottom: 390px;
 }
-
+/* Keyframes for a glitchy movement of the title so that it wiggles */
 @keyframes glitch {
   0% {transform: translate(0);}
   40%{transform: translate(-5px, 100px);}
@@ -222,9 +228,9 @@ p {
   80%{transform:translate(60px, 4px);}
   100%{transform:translate(0);}
 }
-
+/* Styling the glitch error text */
 .glitch-text {
   font-size: 20px;
   color: whitesmoke;
-  letter-spacing: 144px;
+  letter-spacing: 144px; /* Large spacing in between the letters to make the text a bit hard to read */
 }
