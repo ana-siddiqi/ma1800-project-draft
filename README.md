@@ -7,7 +7,7 @@ I wanted the website to be entertaining and intriguing, therefore I incorporated
 
 Page 1 is an illustration the past, specifically old media, with grainy textures and an interactive image that takes users to a website where old televisions are available for purchase. This showcases how we have evolved so much that old digital media is not easily accessible and individuals have to seek to find it. I also decided not to include a back button on this page to be a symbol of how individuals can't go back in time or alter the past, so in order to go back to the home page, users must press the backwards arrow on the top left of their screen, this gets them to interact with a majority of the screen.
 
-Page 2 is a portrayal of the present media and current era we are living in. This page presents more of a cleaner more polished look with mixed languages (English and Farsi) to illustrate how media nowadays has become more personal, global and a part of people's identities. 
+Page 2 is a portrayal of the present media and current era we are living in. This page presents more of a cleaner more polished look with mixed languages (English and Farsi) to illustrate how media nowadays has become more personal, global and a part of people's identities. I added an image of modern day smartphones and added a hover effect to enlarge the image to illustrate how media is very out there and taking over everyone's lives.
 
 Page 3 is a representation of media in the future and how it is unpredictable. This page includes glitch animations, unusual glitch GIF background and cluttered text, which signifies the uncertainty of where digital media could go.
 
